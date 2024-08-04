@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #fbf3f8, #fbe4f4, #f9d6f1, #f6c7ee, #f1b9ed, #efb3ed, #ecacec, #e9a6ec, #e9a6ec, #e9a6ec, #e9a6ec, #e9a6ec);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #fbf3f8, #fbf3f8, #fbf3f8, #fbf3f8, #fbf3f8, #fbecf6, #fbe6f4, #fadff2, #f8d0ef, #f4c2ed, #efb4ec, #e9a6ec);
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.hero-image {
+    height: 40%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content {
+    max-width: 50%;
+    font-size: 25px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.hero-content .highlight {
+    color: #ce2da8;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #f20cc4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.thumb li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.thumb li img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media i {
+    font-size: 24px;
+    color: #333;
+}
+
+.h3 {
+    font-size: 2em;
+    color: #ce2da8; /* Pink color */
+    text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.5); /* Light pink shadow */
+    animation: shine 2s infinite linear;
+}
+
+@keyframes shine {
+    0% {
+        text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.5); /* Light pink shadow */
+    }
+    50% {
+        text-shadow: 4px 4px 12px rgba(255, 105, 180, 1); /* Darker pink shadow */
+    }
+    100% {
+        text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.5); /* Light pink shadow */
+    }
+}
